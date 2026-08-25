@@ -1,13 +1,13 @@
 name: Profile README
 on:
   push:
+    branches:
+      - main
   workflow_dispatch:
   schedule:
   - cron: "0 9 * * *"   # 1x/dia, 6h da manhã em Brasília
-
 permissions:
   contents: write
-
 jobs:
   build:
     runs-on: ubuntu-latest
