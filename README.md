@@ -15,9 +15,7 @@
   Alguns dos meus melhores repositórios:
   <br />
 <br />
-  <ul><li><a href=https://github.com/commitgeist/aluratube target="_blank" rel="noopener noreferrer">commitgeist/aluratube</a> (<b>0</b> ✨ and <b>0</b> 🍴): Aluratube - Desenvolvido durante a imersão React da Alura no final de 2022</li><li><a href=https://github.com/commitgeist/nlw-ia target="_blank" rel="noopener noreferrer">commitgeist/nlw-ia</a> (<b>0</b> ✨ and <b>0</b> 🍴): Projeto desenvolvido durante a NLW IA - Usando a API da OPENAI</li><li><a href=https://github.com/commitgeist/nlw-journey-ia target="_blank" rel="noopener noreferrer">commitgeist/nlw-journey-ia</a> (<b>0</b> ✨ and <b>0</b> 🍴): NLW IA - Agent de viagens usando python + langchain + GPT</li>
-<li>More coming soon :).</li>
-</ul>
+  <ul><li><a href=https://github.com/commitgeist/aluratube target="_blank" rel="noopener noreferrer">commitgeist/aluratube</a> (<b>0</b> ✨ and <b>0</b> 🍴): Aluratube - Desenvolvido durante a imersão React da Alura no final de 2022</li><li><a href=https://github.com/commitgeist/nlw-ia target="_blank" rel="noopener noreferrer">commitgeist/nlw-ia</a> (<b>0</b> ✨ and <b>0</b> 🍴): Projeto desenvolvido durante a NLW IA - Usando a API da OPENAI</li><li><a href=https://github.com/commitgeist/nlw-journey-ia target="_blank" rel="noopener noreferrer">commitgeist/nlw-journey-ia</a> (<b>0</b> ✨ and <b>0</b> 🍴): NLW IA - Agent de viagens usando python + langchain + GPT</li></ul>
   </details>
   <hr/>
   <details>
