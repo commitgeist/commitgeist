@@ -1,10 +1,12 @@
 name: Profile README
-
 on:
   push:
   workflow_dispatch:
   schedule:
-  - cron: "* 6 * * *"
+  - cron: "0 9 * * *"   # 1x/dia, 6h da manhã em Brasília
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -15,17 +17,17 @@ jobs:
     - name: Use Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: "18"
+        node-version: "22"
+        cache: "npm"
     - name: Install Dependencies
-      run: npm install
+      run: npm ci
     - name: Rebuild README.md File
       run: npm run build && npm run start
     - name: Commit and Push if Changed
       run: |-
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
         git add .
-        git diff
-        git config --global user.email "viniciuspoa2@hotmail.com"
-        git config --global user.name "BA Actions Bot"
-        git commit -m "docs: auto-update README.md" -a || exit 0
+        git diff --cached --quiet && exit 0
+        git commit -m "docs: auto-update README.md"
         git push
-    
